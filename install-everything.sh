@@ -47,7 +47,9 @@ rm -rf fonts
 
 #oh my zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-cp profile/.zshrc ~/
+sed -i.bak "s/%USER_NAME%/$USER/g" "profile/.zshrc"
+mv profile/.zshrc ~/.zshrc
+mv profile/.zshrc.bak profile/.zshrc
 cp profile/.profile ~/
 
 cp ~/profile/vscode/settings.json ~/Library/Application\ Support/Code/User/
