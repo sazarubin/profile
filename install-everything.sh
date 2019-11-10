@@ -60,3 +60,4 @@ echo "Your public SSH key:\n"
 cat ~/.ssh/id_rsa.pub
 echo "\n"
 echo "Installation complete!"
+/Applications/Firefox.app/Contents/MacOS/firefox https://github.com/login
