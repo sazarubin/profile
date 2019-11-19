@@ -4,6 +4,8 @@ git config --global user.name $name
 echo "Enter git global user email (it also will be used for ssh-keygen):"
 read email
 git config --global user.email $email
+cp profile/.globalgitignore ~/.gitignore
+git config --global core.excludesfile '~/.gitignore'
 
 #brew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
