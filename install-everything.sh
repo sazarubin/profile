@@ -16,7 +16,12 @@ brew tap homebrew/cask-fonts
 brew install wget
 brew install git
 brew install python
-brew cask install dotnet-sdk
+curl https://dotnetwebsite.azurewebsites.net/download/dotnet-core/scripts/v1/dotnet-install.sh > dotnet-install.sh
+chmod +x dotnet-install.sh
+./dotnet-install.sh --channel 2.2
+./dotnet-install.sh --channel LTS
+./dotnet-install.sh --channel Current
+rm dotnet-install.sh
 brew install azure-cli
 brew install azure-functions-core-tools
 brew install node

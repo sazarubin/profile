@@ -10,3 +10,4 @@ DEFAULT_USER=%USER_NAME%
 LANG="EN_US.UTF-8"
 
 source $ZSH/oh-my-zsh.sh
+source ~/.profile
