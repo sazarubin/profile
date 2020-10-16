@@ -11,3 +11,9 @@ LANG="EN_US.UTF-8"
 
 source $ZSH/oh-my-zsh.sh
 source ~/.profile
+
+zstyle ':completion:*' completer _complete _ignored
+zstyle :compinstall filename '/Users/sergeyzarubin/.zshrc'
+
+autoload -Uz compinit
+compinit
