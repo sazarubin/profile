@@ -30,9 +30,6 @@ brew install drone
 brew install kubernetes-cli
 brew cask install xquartz
 brew install freerdp
-#helm
-brew install https://raw.githubusercontent.com/Homebrew/homebrew-core/7c5ab2af66f83f767db328838424b1f379bd30d4/Formula/kubernetes-helm.rb
-brew pin kubernetes-helm
 brew cask install google-chrome
 brew cask install firefox
 brew cask install iterm2
