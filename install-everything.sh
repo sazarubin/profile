@@ -26,7 +26,6 @@ brew install azure-cli
 brew install azure-functions-core-tools
 brew install node
 npm i -g yarn
-brew install drone
 brew install kubernetes-cli
 brew cask install xquartz
 brew install freerdp
