@@ -55,6 +55,9 @@ sed -i.bak "s/%USER_NAME%/$USER/g" "profile/.zshrc"
 mv profile/.zshrc ~/.zshrc
 mv profile/.zshrc.bak profile/.zshrc
 cp profile/.profile ~/
+# powerlevel10k
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+
 
 cp ~/profile/vscode/settings.json ~/Library/Application\ Support/Code/User/
 code --install-extension k--kato.intellij-idea-keybindings

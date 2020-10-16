@@ -1,5 +1,5 @@
 export ZSH="/Users/%USER_NAME%/.oh-my-zsh"
-ZSH_THEME="agnoster"
+ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(
   colorize
   git
