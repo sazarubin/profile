@@ -15,6 +15,7 @@ brew tap drone/drone
 brew tap homebrew/cask-fonts
 brew install wget
 brew install git
+brew install gh
 brew install python
 curl https://dotnetwebsite.azurewebsites.net/download/dotnet-core/scripts/v1/dotnet-install.sh > dotnet-install.sh
 chmod +x dotnet-install.sh
