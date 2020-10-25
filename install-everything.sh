@@ -11,7 +11,6 @@ git config --global core.excludesfile '~/.gitignore'
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 brew tap azure/functions
-brew tap drone/drone
 brew tap homebrew/cask-fonts
 brew install wget
 brew install git
@@ -30,6 +29,7 @@ npm i -g yarn
 brew install kubernetes-cli
 brew cask install xquartz
 brew install freerdp
+brew install rustup
 brew cask install google-chrome
 brew cask install firefox
 brew cask install iterm2
