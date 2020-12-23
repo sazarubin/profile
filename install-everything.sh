@@ -8,7 +8,7 @@ cp profile/.globalgitignore ~/.gitignore
 git config --global core.excludesfile '~/.gitignore'
 
 #brew
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 brew tap azure/functions
 brew tap homebrew/cask-fonts
@@ -30,20 +30,20 @@ brew install kubernetes-cli
 brew cask install xquartz
 brew install freerdp
 brew install rustup
-brew cask install google-chrome
-brew cask install firefox
-brew cask install spotify
-brew cask install iterm2
-brew cask install visual-studio-code
-brew cask install sublime-text
-brew cask install jetbrains-toolbox
-brew cask install scaleft
+brew install google-chrome
+brew install firefox
+brew install spotify
+brew install iterm2
+brew install visual-studio-code
+brew install sublime-text
+brew install jetbrains-toolbox
+brew install scaleft
 sft config rdp.screensize 1280x800
-brew cask install docker
-brew cask install slack
-brew cask install font-fira-code
-brew cask install scroll-reverser
-brew cask install vlc
+brew install docker
+brew install slack
+brew install font-fira-code
+brew install scroll-reverser
+brew install vlc
 
 #powerline fonts
 git clone https://github.com/powerline/fonts.git
