@@ -16,34 +16,21 @@ brew install wget
 brew install git
 brew install gh
 brew install python
-curl https://dotnetwebsite.azurewebsites.net/download/dotnet-core/scripts/v1/dotnet-install.sh > dotnet-install.sh
-chmod +x dotnet-install.sh
-./dotnet-install.sh --channel 2.2
-./dotnet-install.sh --channel LTS
-./dotnet-install.sh --channel Current
-rm dotnet-install.sh
 brew install azure-cli
-brew install azure-functions-core-tools
 brew install node
 npm i -g yarn
 brew install kubernetes-cli
-brew install --cask xquartz
-brew install freerdp
-brew install rustup
-brew install --cask google-chrome
-brew install --cask firefox
-brew install --cask spotify
-brew install --cask iterm2
-brew install --cask visual-studio-code
-brew install --cask sublime-text
-brew install --cask jetbrains-toolbox
-brew install --cask scaleft
-sft config rdp.screensize 1280x800
-brew install --cask docker
-brew install --cask slack
-brew install --cask font-fira-code
-brew install --cask scroll-reverser
-brew install --cask vlc
+brew install google-chrome
+brew install firefox
+brew install spotify
+brew install iterm2
+brew install visual-studio-code
+brew install sublime-text
+brew install jetbrains-toolbox
+brew install docker
+brew install font-fira-code
+brew install scroll-reverser
+brew install vlc
 
 #powerline fonts
 git clone https://github.com/powerline/fonts.git
